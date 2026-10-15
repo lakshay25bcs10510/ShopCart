@@ -1,0 +1,20 @@
+# Dependencies
+**/node_modules/
+
+# Environment variables (Crucial for protecting your server secrets)
+**/ .env
+server/.env
+
+# Build outputs
+**/dist/
+**/build/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Editor directories
+.vscode/*
+!.vscode/extensions.json
+.idea/
